@@ -1,0 +1,40 @@
+# [PackageDev] target_format: plist, ext: tmLanguage
+---
+name: Oden
+scopeName: source.oden
+fileTypes: [oden]
+uuid: 34e52019-fd43-42bc-ba92-f091830827d4
+
+patterns:
+- comment: Keywords
+  name: keyword.other.oden
+  match: \b(import|package)\b
+
+- comment: Control
+  name: keyword.control.oden
+  match: \b(let|in|if|then|else|any|fn)\b
+
+- comment: Types
+  name: support.type.oden
+  match: \b(int|string|boolean)\b|#\w+
+
+- comment: Numbers
+  name: constant.numeric.oden
+  match: (?<!\w)(\b(\d+)|(\d+(\.\d+)?(e[+-]?\d+)?)\b)
+
+- comment: Operators
+  name: keyword.operator.oden
+  match: >
+    [+\-*\/?<>=]|\+\+|\:\:|==|<=|>=|->
+
+- comment: String
+  name: string.quoted.double.oden
+  begin: (\")
+  end: (\")
+  beginCaptures:
+    "0":
+      name: punctuation.definition.string.begin.oden
+  endCaptures:
+    "0":
+      name: punctuation.definition.string.end.oden
+...
