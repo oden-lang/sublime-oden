@@ -44,6 +44,14 @@
 		</dict>
 		<dict>
 			<key>comment</key>
+			<string>Booleans</string>
+			<key>match</key>
+			<string>\b(true|false)\b</string>
+			<key>name</key>
+			<string>constant.language.oden</string>
+		</dict>
+		<dict>
+			<key>comment</key>
 			<string>Operators</string>
 			<key>match</key>
 			<string>[+\-*\/?&lt;&gt;=]|\+\+|\:\:|==|&lt;=|&gt;=|-&gt;

@@ -22,6 +22,10 @@ patterns:
   name: constant.numeric.oden
   match: (?<!\w)(\b(\d+)|(\d+(\.\d+)?(e[+-]?\d+)?)\b)
 
+- comment: Booleans
+  name: constant.language.oden
+  match: \b(true|false)\b
+
 - comment: Operators
   name: keyword.operator.oden
   match: >
