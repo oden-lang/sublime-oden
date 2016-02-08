@@ -26,6 +26,15 @@ patterns:
   name: constant.language.oden
   match: \b(true|false)\b
 
+- comment: Line comments
+  name: comment.line.oden
+  match: \/\/.*
+
+- comment: Block comments
+  name: comment.block.oden
+  begin: \/\*
+  end: \*\/
+
 - comment: Operators
   name: keyword.operator.oden
   match: >

@@ -52,6 +52,24 @@
 		</dict>
 		<dict>
 			<key>comment</key>
+			<string>Line comments</string>
+			<key>match</key>
+			<string>\/\/.*</string>
+			<key>name</key>
+			<string>comment.line.oden</string>
+		</dict>
+		<dict>
+			<key>begin</key>
+			<string>\/\*</string>
+			<key>comment</key>
+			<string>Block comments</string>
+			<key>end</key>
+			<string>\*\/</string>
+			<key>name</key>
+			<string>comment.block.oden</string>
+		</dict>
+		<dict>
+			<key>comment</key>
 			<string>Operators</string>
 			<key>match</key>
 			<string>[+\-*\/?&lt;&gt;=]|\+\+|\:\:|==|&lt;=|&gt;=|-&gt;
