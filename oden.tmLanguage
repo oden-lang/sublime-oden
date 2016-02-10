@@ -72,8 +72,7 @@
 			<key>comment</key>
 			<string>Operators</string>
 			<key>match</key>
-			<string>[+\-*\/?&lt;&gt;=]|\+\+|\:\:|==|&lt;=|&gt;=|-&gt;
-</string>
+			<string>([+\-*\/&lt;&gt;=!]|&amp;&amp;|\:\:|\|\|)</string>
 			<key>name</key>
 			<string>keyword.operator.oden</string>
 		</dict>

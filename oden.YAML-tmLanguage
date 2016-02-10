@@ -37,8 +37,7 @@ patterns:
 
 - comment: Operators
   name: keyword.operator.oden
-  match: >
-    [+\-*\/?<>=]|\+\+|\:\:|==|<=|>=|->
+  match: ([+\-*\/<>=!]|&&|\:\:|\|\|)
 
 - comment: String
   name: string.quoted.double.oden
