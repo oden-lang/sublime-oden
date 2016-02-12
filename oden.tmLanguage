@@ -30,7 +30,7 @@
 			<key>comment</key>
 			<string>Types</string>
 			<key>match</key>
-			<string>\b(int|string|boolean)\b|#\w+</string>
+			<string>\b(int|string|bool)\b|#\w+</string>
 			<key>name</key>
 			<string>support.type.oden</string>
 		</dict>

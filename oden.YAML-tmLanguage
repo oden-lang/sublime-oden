@@ -16,7 +16,7 @@ patterns:
 
 - comment: Types
   name: support.type.oden
-  match: \b(int|string|boolean)\b|#\w+
+  match: \b(int|string|bool)\b|#\w+
 
 - comment: Numbers
   name: constant.numeric.oden
