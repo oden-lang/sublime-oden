@@ -1,9 +1,12 @@
 # sublime-oden
 Oden support in Sublime 2/3.
 
+- Syntax highlighting
+- Option to run the currently edited Oden file.
+
 # Using this plugin
 
-For now, it's enough to copy the `oden.tmLanguage` file to your User package folder.
+For now, it's enough to copy the whole folder to your User package folder.
 
 For Sublime 3 on OSX, select _Sublime Text->Preferences->Browse Packages..._ from the menu. In the finder window that opens up, go into the _User_ folder and drop the `oden.tmLanguage` file there. You may have to restart Sublime for the plugin to be activated.
 
